@@ -1,0 +1,47 @@
+.logo {
+    background-image: url('../../assets/img/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 120px;
+
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+    padding-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+    .menu-principal {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        margin-bottom: 0;
+    }
+
+}
+
+.menu-principal li {
+    margin: 0 15px;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-principal a:hover {
+    color: #f26822;
+}
+
+.titulo {
+    font-size: 1.6rem;
+}
