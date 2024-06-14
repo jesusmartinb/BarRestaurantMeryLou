@@ -1,8 +1,18 @@
-# React + Vite
+# Bar Restaurant Mery-Lou
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was generated with React + Vite
 
-Currently, two official plugins are available:
+## Dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clonar o copiar el proyecto
+2. Ejecutar `npm install` para la instalación de dependencias
+3. Levantar backend `npm run backend` en una terminal de comandos
+4. Ejecutar la app `npm run dev`
+
+## PWA
+
+1. Ejecutar `npm install` para la instalación de dependencias si fuese necesario
+2. Levantar backend `npm run backend` en una terminal de comandos dejandolo levantado
+3. Construir el build con `npm run build`
+4. Ejecutar un prev con `npm run prev` y acceder a la dirección local
+5. Instalar la APP
