@@ -1,3 +1,32 @@
-.container {
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    padding-bottom: 350px;
+}
+
+.footer {
+    margin-top: auto;
+    display: table;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 293px;
+}
+
+.container2 {
     max-width: 1200px !important;
+    padding: .8rem;
 }

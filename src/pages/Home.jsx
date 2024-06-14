@@ -6,6 +6,7 @@ import { CartaMenu } from './Home.styles';
 
 import { useState, useEffect } from 'react';
 import { getFirstCourse, getMainCourse } from '../services/carta';
+import SearchRecipes from '../components/SearchRecipes/SearchRecipes';
 
 
 
@@ -22,7 +23,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container2 mx-auto">
       <Carous />
       <div className="row">
         <div className="col-12 col-lg-6 p-2">
@@ -70,6 +71,7 @@ const Home = () => {
           </div>
         </div>
       </CartaMenu>
+      <SearchRecipes />
     </div>
   )
 }

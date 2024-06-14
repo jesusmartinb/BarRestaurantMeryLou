@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Info />
-            <Navbar expand="lg" className="bg-success-subtle container">
+            <Navbar expand="lg" className="bg-success-subtle container2 mx-auto">
                 <Container>
                     <Navbar.Brand className="logo"><Link to="/"><h1 className="titulo">Mery-Lou <br /> Bar-Restaurant</h1></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

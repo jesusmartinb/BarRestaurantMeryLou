@@ -3,7 +3,7 @@ import Historia from "../components/Historia/Historia";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container2 mx-auto">
       <h1>Sobre Nosotros</h1>
       <div>
         <Instalaciones />

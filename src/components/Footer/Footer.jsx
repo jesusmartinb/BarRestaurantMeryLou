@@ -4,8 +4,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="container-fluid bg-dark text-secondary mt-5 footer">
-      <div className="container py-5">
+    <footer className="container-fluid bg-dark text-secondary mt-auto footer">
+      <div className="container2 mx-auto py-5">
         <div className="logo">
             <Link to="/"><h1 className="titulo">Mery-Lou <br /> Bar-Restaurant</h1></Link>
         </div>
@@ -20,7 +20,7 @@ const Footer = () => {
             <i className="fa-brands fa-instagram fa-2xl p-4"></i>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

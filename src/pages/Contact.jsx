@@ -3,7 +3,7 @@ import { GMapContainer }  from './Contact.styles.js';
 
 const Contact = () => {
   return (
-    <div className="container text-center">
+    <div className="container2 mx-auto text-center">
       <h1>Contactanos</h1>
       <div className="row">
         <div className="col-12">
