@@ -7,6 +7,14 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true
+      },
+      workbox: {
+        navigateFallbackDenylist: [/asset-manifest\.json$/, /index\.html$/],
+      },
+      includeAssets: ['favicon.ico'],
       manifest: {
         display: 'standalone',
         display_override: ['window-controls-overlay'],
